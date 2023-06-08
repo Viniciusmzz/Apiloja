@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=IBM+Plex+Sans:ital,wght@0,200;1,300;1,400&display=swap');
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    background-color: #ffffff;
+    background-size: cover;
+    padding: -60px;
+    margin-right: 150px;
+
+
+}
+.Header img{
+    height: 180px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.Header a{
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #1b053d;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border-radius: 15px;
+    color: #fff;
+    font-family:'Abel', sans-serif; ;
+    
+}
+.Header a:hover{
+    color: rgb(210, 200, 255);
+    
+}

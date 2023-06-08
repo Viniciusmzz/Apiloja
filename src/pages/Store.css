@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=IBM+Plex+Sans:ital,wght@0,200;1,300;1,400&display=swap');
+.productsArea{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Assets/fundo.png");
+    background-size: cover;
+    padding: 20px;
+    
+}
+.Products{
+    height: 300px;
+    width:250px;
+    border:1px solid rgb(3, 124, 161);
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+.Products h4{
+font-family: 'Abel', sans-serif;
+}
+.button{
+    font-size: 30px;
+    padding-top: 5px;
+    padding: 5px;
+    color: rgb(99, 12, 70);
+    background:transparent;
+    border: none;
+}

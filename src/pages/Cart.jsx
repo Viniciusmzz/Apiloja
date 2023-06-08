@@ -1,6 +1,10 @@
 import React, { useState } from "react";
+import { getItem,setItem } from "../services/LocalStorageFuncs";
 import {BsFillCartDashFill} from 'react-icons/bs';
-import {getItem,setItem} from '../services/LocalStorageFuncs';
+import "./Cart.css";
+import { Header } from "../components/Header";
+
+
 
 
 export const Cart = () =>{
@@ -11,17 +15,22 @@ export const Cart = () =>{
         setData(arrFilter)
         setItem('carrinhoYT',arrFilter)
     }
+
+    const subTotal= data.reduce((acc,cur)=> acc + cur.price ,0)
+    
     return(
-        <div>
-            <h1>Cart</h1>
-            <div className="carrinhos">
+        <div >
+            <Header/>
+            <h3 className="Subtotal">SubTotal: ${subTotal}</h3>
+            <div className="productsArea">
+                
                 {
                     data.map((e) => (
-                        <div key={e.id}>
+                        <div className="Products" key={e.id}>
                             <h4>{e.title}</h4>
                             <img src={e.thumbnail} alt={e.title}/>
                             <h4>{e.price}</h4>
-                            <button
+                            <button className="button"
                              onClick={()=> removeItem(e)}
                              >
                                 <BsFillCartDashFill/>
@@ -29,7 +38,13 @@ export const Cart = () =>{
                         </div>
                     ))
                 }
+ 
+                </div>
+           
+              
+
             </div>
-        </div>
+           
+        
     )
 }
