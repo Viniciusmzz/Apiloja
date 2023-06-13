@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=IBM+Plex+Sans:ital,wght@0,200;1,300;1,400&display=swap');
+
 .Header{
     display: flex;
     align-items: center;
@@ -12,8 +12,8 @@
 
 }
 .Header img{
-    height: 180px;
-    width: 180px;
+    height: 200px;
+    width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,15 +22,11 @@
 .Header a{
     text-decoration: none;
     font-size: 25px;
-    background-color: #1b053d;
+    background-color: #68bef081;
     padding: 8px 16px;
     margin-right: 10px;
     border-radius: 15px;
-    color: #fff;
-    font-family:'Abel', sans-serif; ;
-    
-}
-.Header a:hover{
-    color: rgb(210, 200, 255);
+    color: rgb(0, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ;
     
 }

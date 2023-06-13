@@ -13,8 +13,8 @@
 .Products{
     height: 300px;
     width:250px;
-    border:1px solid rgb(0, 0, 0);
-    background-color: #94ebd1;
+    border:1px solid rgb(255, 255, 255);
+    background-color: #40977d;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -23,7 +23,7 @@
 
 }
 .Products h4{
-    font-family: 'Abel', sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .button{
     font-size: 30px;
@@ -34,10 +34,9 @@
     border: none;
 }
 .Subtotal{
-    font-family: 'Abel', sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
-    background-color: #00d9ff;
     color: #000000;
     padding: 8px 16px;
     
-} 
+}

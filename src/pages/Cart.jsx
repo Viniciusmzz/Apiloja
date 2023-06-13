@@ -21,7 +21,7 @@ export const Cart = () =>{
     return(
         <div >
             <Header/>
-            <h3 className="Subtotal">SubTotal: ${subTotal}</h3>
+            <h3 className="Subtotal">SubTotal: R$ {subTotal}</h3>
             <div className="productsArea">
                 
                 {
