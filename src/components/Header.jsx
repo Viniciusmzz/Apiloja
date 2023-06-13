@@ -9,8 +9,8 @@ export const Header = () => {
             
              <img src={logo} alt="" />
             
-            <Link to="/">Loja</Link>
-            <Link to="/cart">Carrinho</Link>
+            <Link to="/">Telefones</Link>
+            <Link to="/cart">Sua Escolha:</Link>
         </div>
     )
 }

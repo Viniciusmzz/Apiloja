@@ -13,8 +13,8 @@
 .Products{
     height: 300px;
     width:250px;
-    border:1px solid rgb(3, 124, 161);
-    background-color: #ffffff;
+    border:1px solid rgb(0, 0, 0);
+    background-color: #94ebd1;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -29,15 +29,15 @@
     font-size: 30px;
     padding-top: 5px;
     padding: 5px;
-    color: rgb(99, 12, 70);
+    color: rgb(0, 0, 0);
     background:transparent;
     border: none;
 }
 .Subtotal{
     font-family: 'Abel', sans-serif;
     font-size: 25px;
-    background-color: #1b053d;
-    color: #ffffff;
+    background-color: #00d9ff;
+    color: #000000;
     padding: 8px 16px;
     
 } 
